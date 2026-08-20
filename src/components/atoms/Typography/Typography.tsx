@@ -19,7 +19,7 @@ const variantStyles: Record<TypographyVariant, string> = {
     "font-marvel-display text-5xl font-black uppercase tracking-tight",
 
   heading:
-    "font-marvel-display text-3xl font-bold uppercase tracking-wide",
+    "font-marvel-display text-3xl font-bold uppercase sm:text-4xl lg:text-5xl",
 
   body:
     "font-marvel-body text-base leading-relaxed",
