@@ -7,7 +7,7 @@ interface IconProps {
   strokeWidth?: number;
 }
 
-const Icon = ({
+export const Icon = ({
   icon: IconComponent,
   size = 20,
   className = "",

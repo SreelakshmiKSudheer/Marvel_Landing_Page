@@ -1,6 +1,6 @@
 import type { LogoProps } from "./Logo.types";
 
-import marvelLogo from "@/assets/images/marvel-logo.svg";
+import marvelLogo from "../../../assets/icons/marvel_logo.jpg";
 
 const sizeStyles = {
   sm: "w-16",
