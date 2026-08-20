@@ -12,9 +12,9 @@ const variantStyles = {
 };
 
 const sizeStyles = {
-  sm: "min-h-8 p-4 text-xs",
-  md: "min-h-10 p-6 text-sm",
-  lg: "min-h-13 p-8 text-base",
+  sm: "min-h-8 p-2 text-xs",
+  md: "min-h-10 py-3 px-4 text-sm",
+  lg: "min-h-13 py-4 px-6 text-base",
 };
 
 export const Button = ({
