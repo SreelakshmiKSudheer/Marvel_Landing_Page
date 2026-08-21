@@ -23,13 +23,18 @@ export const CharacterCarousel: React.FC<CharacterCarouselProps> = ({
   };
 
   return (
-    <section className="bg-marvel-black px-6 py-20 sm:px-8 sm:py-24 lg:px-12 lg:py-32">
+    <section className="bg-marvel-black px-6 py-20 md:px-8 md:py-18">
       <div className="mx-auto max-w-360">
         <div className="flex flex-col items-center justify-between gap-6 sm:flex-row sm:items-end">
-          <SectionHeading title={title} description={description} centered={false} />
-
+          <div className="w-30"></div>
+          <div className="w-full">
+            <SectionHeading
+              title={title}
+              centered={true}
+            />
+          </div>
           {/* Navigation Controls */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-start gap-3">
             <button
               onClick={() => handleScroll("left")}
               aria-label="Previous characters"

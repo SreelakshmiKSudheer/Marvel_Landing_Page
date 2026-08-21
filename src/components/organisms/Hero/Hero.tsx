@@ -35,7 +35,7 @@ export const Hero = ({
 
           {/* Title */}
 
-          <Typography variant="heading" ashtml="h1" className="text-4xl font-extrabold text-marvel-white uppercase leading-[0.95] tracking-tight sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
+          <Typography variant="display" ashtml="h1" className="text-4xl font-extrabold text-marvel-white uppercase leading-[0.95] tracking-[0.1rem] sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
             {title}
           </Typography>
 

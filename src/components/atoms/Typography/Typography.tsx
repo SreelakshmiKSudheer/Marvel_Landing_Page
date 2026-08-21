@@ -16,10 +16,10 @@ interface TypographyProps {
 
 const variantStyles: Record<TypographyVariant, string> = {
   display:
-    "font-marvel-display text-5xl font-black uppercase tracking-tight",
+    "font-marvel-display text-5xl font-black uppercase tracking-[0.1rem]",
 
   heading:
-    "font-marvel-display text-3xl font-bold uppercase sm:text-4xl lg:text-5xl",
+    "font-marvel-display text-3xl font-bold uppercase sm:text-4xl lg:text-5xl tracking-[0.2rem]",
 
   body:
     "font-marvel-body text-base leading-relaxed",

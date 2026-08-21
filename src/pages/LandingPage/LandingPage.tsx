@@ -1,19 +1,22 @@
 import { heroData } from '../../data/hero'
 import { Hero } from '../../components/organisms/Hero/Hero'
+import { UniverseMap } from '../../components/organisms/UniverseMap/UniverseMap'
 import { StoriesSection } from '../../components/organisms/StoriesSection/StoriesSection'
 import { CharacterCarousel } from '../../components/organisms/CharacterCarousel/CharacterCarousel'
-// import StorySection from '../../components/organisms/StorySection/StorySection'
+import { NewsSection } from '../../components/organisms/NewsSection/NewsSection'
+import { UnlimitedBanner } from '../../components/organisms/UnlimitedBanner/UnlimitedBanner'
 
 const LandingPage = () => {
   return (
     <div>
       <Hero {...heroData} />
+      {/* <UniverseMap /> */}
       <StoriesSection />
-      {/* <StorySection /> */}
       <CharacterCarousel />
+      <NewsSection />
+      <UnlimitedBanner />
     </div>
   )
 }
 
 export default LandingPage
-

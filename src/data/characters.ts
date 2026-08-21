@@ -63,4 +63,13 @@ export const characterData: Character[] = [
     description: "Master of Illusion",
     detail: "The cunning Asgardian master of magic and deception navigates timelines and destiny, morphing from villain to cosmic savior.",
   },
+  {
+    id: "deadpool",
+    name: "Deadpool",
+    alias: "Wade Wilson",
+    image: "/images/characters/deadpool.jpg",
+    href: "/characters/deadpool",
+    description: "The Merc with a Mouth",
+    detail: "With accelerated healing and a sharp wit, Deadpool fights for justice while embracing his chaotic nature.",
+  },
 ];
