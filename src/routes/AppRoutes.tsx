@@ -1,4 +1,3 @@
-import React from 'react'
 import { Routes, Route } from 'react-router';
 import LandingPage from '../pages/LandingPage/LandingPage';
 import LoadingPage from '../pages/LoadingPage/LoadingPage';

@@ -5,12 +5,12 @@ import { storyCategories } from "../../../data/story";
 
 export const StoriesSection = () => {
   return (
-    <section className="bg-marvel-black px-6 py-20 sm:px-8 sm:py-24 lg:px-12 lg:py-32">
+    <section className="bg-marvel-black px-6 py-20 sm:px-8 sm:py-24 md:px-20 lg:py-32">
       <div className="mx-auto max-w-360">
         <SectionHeading title="Choose Your Story" centered />
 
 
-        <div className="mt-10 flex flex-col gap-4 sm:flex-row lg:mt-14 lg:h-112.5 lg:gap-5">
+        <div className="mt-10 px-10 flex flex-col gap-4 sm:flex-row lg:mt-14 h-100 lg:gap-5">
           {storyCategories.map((category) => (
             <div 
               key={category.href} 

@@ -9,6 +9,7 @@ import type { HeroProps } from "./Hero.types";
 
 export const Hero = ({
   backgroundImage,
+  backgroundVideo,
   title,
   description,
   year,
@@ -20,7 +21,7 @@ export const Hero = ({
     <section className="relative flex min-h-screen items-end overflow-hidden bg-marvel-black lg:items-center">
       {/* Background */}
 
-      <HeroBackground image={backgroundImage} alt={title} />
+      <HeroBackground image={backgroundImage} video={backgroundVideo} alt={title} />
 
       {/* Content */}
 

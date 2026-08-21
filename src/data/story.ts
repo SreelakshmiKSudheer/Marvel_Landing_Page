@@ -1,5 +1,6 @@
 export const storyCategories = [
   {
+    id: "1",
     title: "Movies",
     image: "/images/story/movie.jpeg",
     href: "/movies",
@@ -7,6 +8,7 @@ export const storyCategories = [
     detail: "Explore the cinematic universe of Marvel, where heroes and villains collide in epic battles and unforgettable stories.",
   },
   {
+    id: "2",
     title: "Comics",
     image: "/images/story/comic.jpeg",
     href: "/comics",
@@ -14,6 +16,7 @@ export const storyCategories = [
     detail: "Dive into the rich history of Marvel Comics, where iconic characters and thrilling adventures have captivated readers for decades.",
   },
   {
+    id: "3",
     title: "TV Shows",
     image: "/images/story/loki.jpg",
     href: "/tv-shows",
@@ -21,6 +24,7 @@ export const storyCategories = [
     detail: "Experience the Marvel universe on your screen with captivating TV shows that expand the stories of your favorite heroes and villains.",
   },
   {
+    id: "4",
     title: "Games",
     image: "/images/story/game.jpeg",
     href: "/games",
