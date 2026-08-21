@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import "tailwindcss";
 
 @theme {
@@ -16,7 +17,7 @@
      TYPOGRAPHY
   ================================= */
 
-  --font-marvel-display: "Arial Narrow", Arial, sans-serif;
+  --font-marvel-display: "Bebas Neue", sans-serif;
   --font-marvel-body: Inter, Arial, sans-serif;
 
   /* ================================
