@@ -7,4 +7,5 @@ export const heroData = {
   duration: "1h 55m",
   rating: "PG-13",
   backgroundImage: "/images/hero/fantastic-four.jpeg",
+  backgroundVideo: "/videos/hero/fantastic-four.mp4",
 };

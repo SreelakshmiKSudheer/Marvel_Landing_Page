@@ -27,7 +27,7 @@ export const ContentCard = ({
 
       if (ctx) {
         // Calculate a small strip on the left (e.g., 20% of the image width, min 1px)
-        const leftStripWidth = Math.max(1, Math.floor(img.width * 1));
+        const leftStripWidth = Math.max(1, Math.floor(img.width * 0.2));
 
         // drawImage(image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight)
         // This crops the left strip of the original image and averages it into our 1x1 canvas
